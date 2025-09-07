@@ -42,3 +42,11 @@ export interface Property {
   location: string;
   imageUrl: string;
 }
+
+export interface BookingDetails {
+  propertyName: string;
+  startDate: string;
+  totalNights: number;
+  bookingFee: number;
+  price: number;
+}
