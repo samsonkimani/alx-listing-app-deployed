@@ -9,6 +9,8 @@ interface Property {
   image: string;
   price: number;
   location: string;
+  description: string;
+  imageUrl: string;
 }
 
 export default function Home() {
